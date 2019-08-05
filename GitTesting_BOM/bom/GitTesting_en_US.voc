@@ -1,0 +1,12 @@
+# Vocabulary Properties
+uuid = 72a16aaf-a828-43b4-a5f6-253416389739
+
+# com.dev.GitInput
+com.dev.GitInput#concept.label = git input
+com.dev.GitInput.num#phrase.action = set the num of {this} to {num}
+com.dev.GitInput.num#phrase.navigation = {num} of {this}
+
+# com.dev.GitOutput
+com.dev.GitOutput#concept.label = git output
+com.dev.GitOutput.answer#phrase.action = set the answer of {this} to {answer}
+com.dev.GitOutput.answer#phrase.navigation = {answer} of {this}

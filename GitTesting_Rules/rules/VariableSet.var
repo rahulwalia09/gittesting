@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>VariableSet</name>
+  <uuid>c0dc19e2-9aca-45b2-b341-920b02a19744</uuid>
+  <variables name="input" type="com.dev.GitInput" initialValue="" verbalization="Input"/>
+  <variables name="output" type="com.dev.GitOutput" initialValue="new com.dev.GitOutput()" verbalization="Output"/>
+</ilog.rules.studio.model.base:VariableSet>

@@ -1,0 +1,19 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/GitTesting_BOM//GitTesting"
+property uuid "9b307bd4-efe8-4175-8051-09257c3b0567"
+package com.dev;
+
+
+public class GitInput
+{
+    public int num;
+    public GitInput();
+}
+
+public class GitOutput
+{
+    public int answer;
+    public GitOutput();
+}
+

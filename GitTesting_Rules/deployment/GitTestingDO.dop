@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="GitTestingDO" usingRuleflow="true" ruleflowName="RuleFlow" targetRuleProjectName="GitTesting_Rules">
+  <name>GitTestingDO</name>
+  <uuid>232537ca-d358-40d9-a697-7f1608645c66</uuid>
+  <referencedVariables variableName="input" variableSetName="VariableSet">
+    <variableSet href="../rules/VariableSet.var#c0dc19e2-9aca-45b2-b341-920b02a19744"/>
+  </referencedVariables>
+  <referencedVariables variableName="output" variableSetName="VariableSet" direction="OUT">
+    <variableSet href="../rules/VariableSet.var#c0dc19e2-9aca-45b2-b341-920b02a19744"/>
+  </referencedVariables>
+  <ruleflow href="../rules/RuleFlow.rfl#90d6690e-d73a-4393-89cb-81b2ab1b02db"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="GitTestingDO_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../GitTesting_Rules#26431e2f-c1ff-4563-9635-6fdeb13b9c27"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>
