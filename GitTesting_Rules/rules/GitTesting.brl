@@ -3,4 +3,8 @@
   <name>GitTesting</name>
   <uuid>44428b05-dda5-4c53-bf7e-83c1401133d3</uuid>
   <locale>en_US</locale>
+  <definition><![CDATA[if
+    the num of Input is 1
+then
+    set the answer of Output to 100 ;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>
